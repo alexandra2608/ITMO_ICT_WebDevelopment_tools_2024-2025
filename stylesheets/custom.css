@@ -1,0 +1,20 @@
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border: 2px solid #673ab7;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(103, 58, 183, 0.1);
+}
+
+.md-typeset .admonition.note > .admonition-title,
+.md-typeset details.note > summary {
+  background-color: #d1c4e9;
+  color: #4a148c;
+  font-weight: 600;
+  border-bottom: 1px solid #ce93d8;
+}
+
+.md-typeset .admonition.note > .admonition-title::before,
+.md-typeset details.note > summary::before {
+  color: #673ab7 !important;
+}
